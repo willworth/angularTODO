@@ -6,9 +6,10 @@ import { Component } from "@angular/core";
   styleUrls: ["./app.component.css"]
 })
 export class AppComponent {
-  name: string = 13;
+  name: string = "examplename";
 
   constructor() {
     console.log("constructors run when the component is rendered.");
+    this.name = "joffery";
   }
 }
